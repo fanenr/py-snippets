@@ -12,8 +12,9 @@ def sigmoid(x):
 
 
 # 辅助函数
-def get_inputs(values):
-    return (np.array(values[1:], dtype=np.float32) / 255.0 * 0.99) + 0.01
+get_inputs = (
+    lambda values: (np.array(values[1:], dtype=np.float32) / 255.0 * 0.99) + 0.01
+)
 
 
 # 神经网络
