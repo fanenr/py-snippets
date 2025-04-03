@@ -4,6 +4,7 @@
 4/
 5/
 .venv/
+one-api.db
 
 *.pt
 *.csv
